@@ -1,0 +1,111 @@
+ body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 100vw;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    #myForm {
+      width: 40%;
+      margin-bottom: 30px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+      height:10%;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 8px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    h4{
+        font-weight: bold;
+        text-align: center;
+        margin-left: 200px
+    }
+
+    button {
+      padding: 10px 15px;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: green;
+    }
+
+    .message {
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .error {
+      color: red;
+    }
+
+    .success {
+      color: green;
+    }
+
+    .individual-item {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 6px;
+      margin-bottom: 15px;
+      max-width: 300px;
+    }
+
+    .individual-item img {
+      /* max-width: 100%; */
+      width: 100%;
+      height:400px;
+      margin-top: 10px;
+      object-fit: cover;
+    }
+
+    /* .individual-item p{
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.individual-item .price {
+    font-weight: bold;
+    color: #007b5e;
+    margin-top: 0.5rem;
+} */
+    
+
+    .whole{
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+    }
+
+    #productList{
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        column-gap: 20px;
+    }
+
