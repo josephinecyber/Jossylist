@@ -4,6 +4,7 @@
       max-width: 100vw;
       min-height: 100vh;
       overflow-x: hidden;
+      
     }
 
     #myForm {
@@ -12,7 +13,7 @@
       padding: 20px;
       border: 1px solid #ccc;
       border-radius: 8px;
-      background-color: #f9f9f9;
+      background-color: rgb(211, 192, 211);
       height:10%;
     }
 
