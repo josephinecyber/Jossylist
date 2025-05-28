@@ -39,12 +39,12 @@ products.push(product);
     div.className = 'individual-item';
 
     div.innerHTML = `
+    <img src="${product.imageUrl}" alt="${product.name}" />
       <h3>Name: ${product.name}</h3>  
       <br>
       <p>Description: ${product.description}</p><br>
       <p class="price">Price: $${parseFloat(product.price).toFixed(2)}</p><br>
       <p>Brand: ${product.brand}</p><br>
-      <img src="${product.imageUrl}" alt="${product.name}" />
     `;
 
     productList.appendChild(div);
